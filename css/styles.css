@@ -1,0 +1,13 @@
+/* BORDES */
+* {
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a78b8b;
+    color: #000000;
+}

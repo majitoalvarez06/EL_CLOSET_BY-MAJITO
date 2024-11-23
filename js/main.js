@@ -8,20 +8,3 @@ if (loggedInUserEmail) {
         window.location.href = 'login.html';
     });
 }
-
-// MENÚ
-const enlaces = document.querySelectorAll('.menu a');
-
-        // SECCIONES
-        const secciones = document.querySelectorAll('section');
-        secciones.forEach((seccion) => {
-            seccion.style.display = 'none';
-        });
-
-        // MOSTRAR LA SECCIÓN
-        const id = enlace.getAttribute('href').substring(1); 
-        const seccionMostrar = document.getElementById(id);
-        if (seccionMostrar) {
-    seccionMostrar.style.display = 'block';
-}
-document.getElementById('inicio').style.display = 'block';
